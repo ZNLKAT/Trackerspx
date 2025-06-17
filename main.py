@@ -46,3 +46,6 @@ while True:
         icon = "🔺" if change > 0 else "🔻"
         send_message(f"{icon} <b>{SYMBOL}</b> {current_price:.5f} USDT ({change:+.2f}%)")
         prev_price = current_price
+git add main.py
+git commit -m "Fix: Replace German code with working Python"
+git push
